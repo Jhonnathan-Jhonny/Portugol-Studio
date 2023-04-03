@@ -1,8 +1,10 @@
-programa
-{
-	
-	funcao inicio(){
-		real valor, media = 0.0,quantidade = 0.0, maior, menor, soma = 0.0
+programa{
+	inclua biblioteca Matematica --> m
+	funcao inicio()
+	{
+		inteiro quantidade = 0
+		real maior, menor, valor, media = 0.0, soma = 0.0
+
 		escreva("Digite um valor: ")
 		leia(valor)
 		soma += valor
@@ -15,11 +17,9 @@ programa
 			quantidade += 1
 			soma += valor 
 
-			se (valor > maior){
-				maior = valor
-			}
-			se ( valor < menor e valor != 0){
-				menor = valor
+			maior = m.maior_numero(valor, maior)
+			se (valor != 0){
+				menor = m.menor_numero(valor, menor)
 			}
 		}
 		se (quantidade != 0){
@@ -28,7 +28,6 @@ programa
 		se (quantidade == 0){
 			escreva("Nenhum valor informado.")	
 		}
-
 		escreva("\nMedia: ", media)
 		escreva("\nMaior: ", maior)
 		escreva("\nMenor: ", menor)
@@ -39,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 160; 
+ * @POSICAO-CURSOR = 147; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
