@@ -1,7 +1,8 @@
 programa
 {
 	// Jhonnathan Jhonny Rufino Rodrigues - 005
-	inclua biblioteca Matematica --> m
+	inclua biblioteca Matematica --> m
+	inclua biblioteca Util --> u
 	
 	funcao inicio()
 	{
@@ -38,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 55; 
+ * @POSICAO-CURSOR = 304; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

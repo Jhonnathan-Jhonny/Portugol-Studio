@@ -4,6 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro soma = 0, n = 0
+		escreva("Digite 999 pra parar!!!\n")
 		enquanto(n != 999){
 			escreva("Digite um valor: ")
 			leia(n)
@@ -19,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 223; 
+ * @POSICAO-CURSOR = 95; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
